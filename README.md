@@ -1,9 +1,7 @@
-# Project Title
+# Crowd Management System
 
-One Paragraph of the project description
+This project was designed as a crowd managment system, which helps to distribute crowd amoung service providers and decrease waiting time in line. In this project we are using huging face api to identify head of people in waiting line and with a simple KNN model we are estimating their waiting time, by averaging their waiting time as a live data, we can identify an index which shows how crowded a place is, then, accourding to locaion of a person, and crowdness of the place, we are suggesting the best place. 
 
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
 
 ## Getting Started
 
@@ -13,29 +11,10 @@ for notes on deploying the project on a live system.
 
 ### Prerequisites
 
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
-
-### Installing
-
-A step by step series of examples that tell you how to get a development
-environment running
-
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
+install requirements using following code: 
+```
+pip install requirements.txt
+```
 
 ### Sample Tests
 
